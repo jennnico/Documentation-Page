@@ -1,0 +1,89 @@
+body{
+  background: linear-gradient(45deg, #004400, #005600);
+  color: white;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+/*Tablet size - smaller fonts for headings*/
+@media screen and (max-width: 1024px) and (min-width: 480px) {
+
+  /*'Green Living'*/
+  h1{
+    font-size: 2.5rem;
+    padding-left: .5rem;
+  }
+  /*Sections*/
+  h2{
+    font-size: 1.5rem;
+  }
+}
+
+/*Laptop/computer size - larger fonts for headings*/
+@media screen and (min-width: 1024px) {
+  /*Green Living*/
+  h1{
+    font-size: 3rem;
+    padding-left: .5rem;
+  }
+  /*Sections*/
+  h2{
+    font-size: 2rem;
+  }
+}
+
+
+/*Navigation Bar*/
+#nav{
+  list-style: none;
+  text-align: left;
+  border-right: solid #006800;
+  height: 100%;
+  margin-left: -3rem;
+  margin-top: -.5rem;
+  padding-top: 1rem;
+  width: 10rem;
+  position: fixed; 
+}
+
+/*Navigation Buttons*/
+.navigate{
+  line-height: 180%;
+  padding: .6rem;
+}
+
+.navigate:hover {
+  background-color: #004400;
+  cursor: pointer;
+}
+
+/*Navigation Button text*/
+a{
+  color: white;
+  text-decoration: none
+}
+
+/*Two columns: nav bar and content*/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*Main sections - h2 AND p*/
+.main-section{
+  margin-bottom: 5rem;
+  margin-left: 11rem;
+  float: left;
+  text-align: left;
+}
+
+/*Content*/
+p{
+  max-width: 60rem;
+  padding-right: 2rem;
+}
+
+/*Content bullet points*/
+li{
+  text-align: left;
+}
